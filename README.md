@@ -1,6 +1,6 @@
-# xtest
+# Quick Page Saver
 
-lorem ipsum extension
+Save pages to your google drive
 
 ## Installation
 
