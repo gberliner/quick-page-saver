@@ -3,6 +3,7 @@ import { colors, log } from 'gulp-util'
 import zip from 'gulp-zip'
 import packageDetails from '../package.json'
 import args from './lib/args'
+import './build'
 
 function getPackFileType () {
   switch (args.vendor) {
@@ -13,7 +14,7 @@ function getPackFileType () {
   }
 }
 
-gulp.task('pack', ['build'], () => {
+gulp.task('pack', () => {
   let name = packageDetails.name
   let version = packageDetails.version
   let filetype = getPackFileType()
