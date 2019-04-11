@@ -1,0 +1,18 @@
+{
+  "appName": {
+    "message": "xtest",
+    "description": "The name of the application"
+  },
+  "appShortName": {
+    "message": "xtest",
+    "description": "The short_name (maximum of 12 characters recommended) is a short version of the app's name."
+  },
+  "appDescription": {
+    "message": "lorem ipsum extension",
+    "description": "The description of the application"
+  },
+  "browserActionTitle": {
+    "message": "xtest",
+    "description": "The title of the browser action button"
+  }
+}
