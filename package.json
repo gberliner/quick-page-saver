@@ -1,12 +1,12 @@
 {
-  "name": "xtest",
+  "name": "quick-page-saver",
   "private": true,
   "version": "0.0.0",
   "description": "lorem ipsum extension",
   "scripts": {
     "start": "npm run dev:chrome",
     "build": "npm run build:chrome",
-    "build:chrome": "gulp pack --production --vendor=chrome",
+    "build:chrome": "gulp build && gulp pack --production --vendor=chrome",
     "build:firefox": "gulp pack --production --vendor=firefox",
     "build:opera": "gulp pack --production --vendor=opera",
     "build:edge": "gulp pack --production --vendor=edge",
