@@ -28,6 +28,7 @@
     "babel-core": "6.x.x",
     "babel-loader": "7.x.x",
     "babel-preset-env": "1.x.x",
+    "babel-register": "^6.26.0",
     "chai": "4.x.x",
     "chromereload": "0.x.x",
     "debounce": "1.x.x",
@@ -41,20 +42,19 @@
     "gulp-hub": "^4.2.0",
     "gulp-if": "2.x.x",
     "gulp-imagemin": "^5.0.3",
-    "gulp-json-transform": "0.x.x",
+    "gulp-json-transform": "^0.4.6",
     "gulp-less": "^4.0.1",
     "gulp-livereload": "^4.0.1",
     "gulp-plumber": "1.x.x",
-    "gulp-sass": "^4.0.2",
-    "gulp-sequence": "0.x.x",
-    "gulp-sourcemaps": "^2.x.x",
     "gulp-tag-version": "1.x.x",
     "gulp-util": "3.x.x",
     "gulp-zip": "^4.x.x",
+    "node-pre-gyp": "^0.12.0",
     "preact": "^8.4.2",
     "preact-compat": "^3.18.4",
     "require-dir": "0.x.x",
     "standard": "^10.0.2",
+    "tar": "^4.4.8",
     "ts-loader": "^2.x.x",
     "tslint": "^5.x.x",
     "vinyl-named": "1.x.x",
@@ -64,5 +64,10 @@
   },
   "dependencies": {
     "typescript": "^3.4.3"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
   }
 }
